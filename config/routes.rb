@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get("/wizard_subtract", { :controller => "subtraction", :action => "subtract_these" })
 
 #multiply
-  get("/multiply", { :controller => "multiplication", :action => "multiplication" })
+  get("/multiply", { :controller => "multiplication", :action => "show_multiplication_form" })
 
   get("/wizard_multiply", { :controller => "multiplication", :action => "multiply" })
 #divide
